@@ -28,6 +28,6 @@ export async function sendEmail({
   const { data, error } = await resend.emails.send(payload);
 
   if (error) throw error;
-
+  
   return data;
 }
