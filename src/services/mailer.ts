@@ -16,7 +16,7 @@ export async function sendEmail({
   replyTo?: string;
 }) {
   const payload: any = {
-    from: 'Infinity Medical Kuwait <onboarding@resend.dev>',
+    from: 'Infinity Medical Kuwait <kuwait@infinitymedicalkwt.com>',
     to: [to],
     subject,
   };
